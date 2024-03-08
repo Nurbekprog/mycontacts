@@ -1,0 +1,44 @@
+header {
+  background-color: #1a8754;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.142);
+  height: 80px;
+  width: 100%;
+  z-index: 2;
+  .container {
+    height: 100%;
+  }
+  h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    border: none;
+    border-radius: 8px;
+    bottom: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    height: 45px;
+    width: 130px;
+    z-index: 2;
+    background-color: #3160b6;
+    transition: all 0.6s;
+    &:hover {
+      background: #173b7c;
+    }
+  }
+}

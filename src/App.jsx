@@ -1,11 +1,10 @@
-import React from "react";
-import Contacts from "./components/Contacts";
-const App = () => {
+import Tabel from "./components/tabel";
+function App() {
   return (
     <div>
-      <Contacts />
+      <Tabel />
     </div>
   );
-};
+}
 
 export default App;
